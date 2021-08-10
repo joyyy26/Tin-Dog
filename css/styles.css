@@ -52,17 +52,6 @@ h2 {
     position: absolute;
     right: 25%;
 }
-@media (max-width: 990px) {
-    #title {
-        text-align: center;
-    }
-    .title-img {
-        position: static;
-        transform: rotate(0);
-        width: 60%
-    }
-
-}
 
 /* Features */
 #features {
@@ -122,4 +111,38 @@ h2 {
 }
 .pricing-row {
     padding-top: 3%;
+}
+/* Call for Action */
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+.cta-description {
+    font-family: "Montserrat";
+    color: white;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+}
+.footer-fab {
+    margin: 0.5rem;
+}
+
+@media (max-width: 990px) {
+    #title {
+        text-align: center;
+    }
+    .title-img {
+        position: static;
+        transform: rotate(0);
+        width: 60%
+    }
+
 }
