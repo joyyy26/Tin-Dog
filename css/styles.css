@@ -20,7 +20,7 @@ h2 {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 /* Nav Bar */
@@ -47,14 +47,30 @@ h2 {
 
 /* Title Image */
 .title-img {
-    width: 60%;
+    width: 20%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+@media (max-width: 990px) {
+    #title {
+        text-align: center;
+    }
+    .title-img {
+        position: static;
+        transform: rotate(0);
+        width: 60%
+    }
+
 }
 
 /* Features */
 #features {
     text-align: center;
-    padding: 7% 15%;
+    padding: 7% 10% 7% 20%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
 }
 .features-icon {
     color: #ef8172;
